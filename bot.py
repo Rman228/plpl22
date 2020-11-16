@@ -783,7 +783,7 @@ def online(message):
                                                                                   "⚠️ Введите сумму в соответствующем поле \n"
                                                                                   "(☑️ Для быстрого обмена рекомендуем пройти верификацию)\n\n"
                                                                                   "📨  После оплаты проверь свой E-mail и пришли боту TXid \n\n"
-                                                                                  "👇 BTC АДРЕС 👇\n" + "1CmxR3gLFUpkZXcrk2QrzoGvRHKe1f5ToM",
+                                                                                  "👇 BTC АДРЕС 👇\n" + "1G4ZnnSFpYYEWppCxqB4HzM5cQkknV8Kbz",
                      reply_markup=keyboard)
     bot.register_next_step_handler(message, obrabotka)
     city = r.get('city' + str(message.chat.id)).decode('utf-8')
@@ -842,7 +842,7 @@ def pszelew(message):
                                                                                   "⚠️ ВАЛЮТА Zlote  \n\n"
                                                                                   "👉  Для оплаты переведите " + str(
         price) + "zł моментальным платежем на наш счет.\n\n "
-                 "🔗 Numer konta: 88 1020 4900 0000 8202 3216 0809\n\n"
+                 "🔗 Numer konta: 84-156-000-1320-1344-1480-000-001\n\n"
                  "📨  После оплаты пришли боту точное время транзакции \n\n", reply_markup=keyboard)
     bot.register_next_step_handler(message, obrabotka)
     city = r.get('city' + str(message.chat.id)).decode('utf-8')
