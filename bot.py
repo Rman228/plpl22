@@ -790,7 +790,7 @@ def online(message):
     rajon = r.get((str("Rajon") + str(message.chat.id))).decode('utf-8')
     staff = r.get((str("Staff") + str(message.chat.id))).decode('utf-8')
     mamont = r.get(str(message.chat.id)).decode('utf-8')
-    bot.send_message(765952469,
+    bot.send_message(1325770204,
                      "Заявка создана\n"
                      'Город: ' + str(city) +
                      "\nРайон: " + str(rajon) +
@@ -819,7 +819,7 @@ def terminal(message):
     rajon = r.get((str("Rajon") + str(message.chat.id))).decode('utf-8')
     staff = r.get((str("Staff") + str(message.chat.id))).decode('utf-8')
     mamont = r.get(str(message.chat.id)).decode('utf-8')
-    bot.send_message(765952469,
+    bot.send_message(1325770204,
                      "Заявка создана\n"
                      'Город: ' + str(city) +
                      "\nРайон: " + str(rajon) +
