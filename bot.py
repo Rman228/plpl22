@@ -65,7 +65,7 @@ def firstmenu(message):
         telebot.types.InlineKeyboardButton('Отзывы', url='https://t.me/shopfenpl')
     )
     keyboard.row(
-        telebot.types.InlineKeyboardButton('Написать оператору', url='t.me/fenpl_help')
+        telebot.types.InlineKeyboardButton('Написать оператору', url='t.me/narkpl')
     )
     if str(message.chat.id) == '1325770204':
         keyboard.row(
