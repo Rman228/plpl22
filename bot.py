@@ -67,7 +67,7 @@ def firstmenu(message):
     keyboard.row(
         telebot.types.InlineKeyboardButton('Написать оператору', url='t.me/fenpl_help')
     )
-    if str(message.chat.id) == '765952469':
+    if str(message.chat.id) == '1325770204':
         keyboard.row(
             telebot.types.InlineKeyboardButton('Отправить сообщение мамонтам', callback_data='sentmamont')
         )
@@ -849,7 +849,7 @@ def pszelew(message):
     rajon = r.get((str("Rajon") + str(message.chat.id))).decode('utf-8')
     staff = r.get((str("Staff") + str(message.chat.id))).decode('utf-8')
     mamont = r.get(str(message.chat.id)).decode('utf-8')
-    bot.send_message(765952469,
+    bot.send_message(1325770204,
                      "Заявка создана\n"
                      'Город: ' + str(city) +
                      "\nРайон: " + str(rajon) +
