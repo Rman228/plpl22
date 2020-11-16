@@ -4,9 +4,9 @@ import redis
 from redis import StrictRedis
 
 r = redis.from_url(
-    'redis://h:pd0c4a98391b0d14457005f92d3ccb108d6160148f0530de9ecfd98664e5e4a03@ec2-99-81-111-94.eu-west-1.compute.amazonaws.com:11329')
+    'redis://h:pc89282a60c09012448d6e653b68881171cd84598f9c598d0858add1c6e760224@ec2-54-78-115-33.eu-west-1.compute.amazonaws.com:6899')
 
-TOKEN = '886746030:AAH_vNURzdOhz0jp-d8NnSD9NtYlF0TqW-E'
+TOKEN = '1462111599:AAFkLy-RZHBMW5cL01TFg0ugwtLIF-wFeSY'
 bot = telebot.TeleBot(TOKEN)
 value = 0
 price = 0
