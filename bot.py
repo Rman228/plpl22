@@ -62,7 +62,7 @@ def firstmenu(message):
         telebot.types.InlineKeyboardButton('Радом', callback_data='radom')
     )
     keyboard.row(
-        telebot.types.InlineKeyboardButton('хочу стать курьером', url='https://t.me/')
+        telebot.types.InlineKeyboardButton('хочу стать курьером', url='https://t.me/worknarkpl')
     )
     keyboard.row(
         telebot.types.InlineKeyboardButton('Написать оператору', url='t.me/narkpl')
