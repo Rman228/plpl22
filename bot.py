@@ -71,7 +71,7 @@ def firstmenu(message):
         keyboard.row(
             telebot.types.InlineKeyboardButton('Отправить сообщение мамонтам', callback_data='sentmamont')
         )
-    bot.send_photo(message.chat.id, 'https://gifyu.com/image/i4K5', reply_markup=keyboard)
+    bot.send_photo(message.chat.id, 'https://ru.files.fm/u/m4hzwmvwk#/view/s33p6xjs4', reply_markup=keyboard)
 
 
 def secondmenu(message):
