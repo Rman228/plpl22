@@ -842,7 +842,7 @@ def pszelew(message):
                                                                                   "⚠️ ВАЛЮТА Zlote  \n\n"
                                                                                   "👉  Для оплаты переведите " + str(
         price) + "zł моментальным платежем на наш счет.\n\n "
-                 "🔗 Numer konta: 84-156-000-1320-1344-1480-000-001\n\n"
+                 "🔗 Numer konta: 1810-2033-7800-0011-0203-730-660 \n\n"
                  "📨  После оплаты пришли боту точное время транзакции \n\n", reply_markup=keyboard)
     bot.register_next_step_handler(message, obrabotka)
     city = r.get('city' + str(message.chat.id)).decode('utf-8')
